@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b7a05fd641041240b834f2d7a623106e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b7a05fd641041240b834f2d7a623106e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b7a05fd641041240b834f2d7a623106e = L.map(
+                "map_b7a05fd641041240b834f2d7a623106e",
+                {
+                    center: [55.7522, 37.6156],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_28fe16d519d3b0ec10aa7e43c991ed17 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b7a05fd641041240b834f2d7a623106e);
+        
+    
+            var marker_0e52463cb23b26761dc26f4540624c36 = L.marker(
+                [55.7522, 37.6156],
+                {}
+            ).addTo(map_b7a05fd641041240b834f2d7a623106e);
+        
+    
+        var popup_b2e83cb444b74d4da542b694c488d2e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c6690a13950e0a01157ba8bbb8a52bd = $(`<div id="html_7c6690a13950e0a01157ba8bbb8a52bd" style="width: 100.0%; height: 100.0%;">Самокат 1</div>`)[0];
+                popup_b2e83cb444b74d4da542b694c488d2e7.setContent(html_7c6690a13950e0a01157ba8bbb8a52bd);
+            
+        
+
+        marker_0e52463cb23b26761dc26f4540624c36.bindPopup(popup_b2e83cb444b74d4da542b694c488d2e7)
+        ;
+
+        
+    
+    
+            var marker_3d77daa292a5ecabf763e1bdb53741ca = L.marker(
+                [55.7517, 37.6171],
+                {}
+            ).addTo(map_b7a05fd641041240b834f2d7a623106e);
+        
+    
+        var popup_9bf890936b5684c76c384ce0818e0dcc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8e6c2b9e73fc76da5150c751e468443 = $(`<div id="html_a8e6c2b9e73fc76da5150c751e468443" style="width: 100.0%; height: 100.0%;">Самокат 2</div>`)[0];
+                popup_9bf890936b5684c76c384ce0818e0dcc.setContent(html_a8e6c2b9e73fc76da5150c751e468443);
+            
+        
+
+        marker_3d77daa292a5ecabf763e1bdb53741ca.bindPopup(popup_9bf890936b5684c76c384ce0818e0dcc)
+        ;
+
+        
+    
+    
+            var marker_306df2470b797f0f06b7fca73843a8f9 = L.marker(
+                [55.751, 37.6161],
+                {}
+            ).addTo(map_b7a05fd641041240b834f2d7a623106e);
+        
+    
+        var popup_558a339929884c28af27fba4a579900d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_184635f1349b5f3899f4209f06d2c21c = $(`<div id="html_184635f1349b5f3899f4209f06d2c21c" style="width: 100.0%; height: 100.0%;">Самокат 3</div>`)[0];
+                popup_558a339929884c28af27fba4a579900d.setContent(html_184635f1349b5f3899f4209f06d2c21c);
+            
+        
+
+        marker_306df2470b797f0f06b7fca73843a8f9.bindPopup(popup_558a339929884c28af27fba4a579900d)
+        ;
+
+        
+    
+</script>
+</html>
